@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email    = ["axcora@gmail.com"]
 
   spec.summary  = "A new jekyll bootstrap generation."
-  spec.homepage = "https://mesinkasir.github.com/jekylldarkcat"
+  spec.homepage = "https://mesinkasir.github.com/darkcat"
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
