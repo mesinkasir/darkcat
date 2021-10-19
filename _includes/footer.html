@@ -1,0 +1,17 @@
+<footer>
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+{%- if site.author %}
+{% if site.author.name -%}
+{{ site.author.name | escape }}
+{% endif -%}
+
+<br/>{% if site.author.email -%}
+           <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+          {%- endif %}
+   
+      {%- endif %}
+        <p>{{ site.description | escape }}</p>
+   
+ 
+
+</footer>
